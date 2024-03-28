@@ -88,15 +88,15 @@ export default{
 
             <div class="mt-3 row justify-content-around align-items-center">
                 <button class="btn btn-sm btn-primary" @click="refreshList()">
-                    <i class="fas fa-redo">Làm mới</i>
+                    <i class="fas fa-redo"></i>Làm mới
                 </button>
 
                 <button class="btn btn-sm btn-succes" @click="goToAddContact">
-                    <i class="fas fa-plus">Thêm mới</i>
+                    <i class="fas fa-plus"></i>Thêm mới
                 </button>
 
                 <button class="btn btn-sm btn-danger" @click="removeAllContacts">
-                    <i class="fas fa-trash">Xóa tất cả</i>
+                    <i class="fas fa-trash"></i>Xóa tất cả
                 </button>
 
             </div>
